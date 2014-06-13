@@ -12,7 +12,6 @@ var moveFile = require('broccoli-file-mover');
 var removeFile = require('broccoli-file-remover');
 var jshintTree = require('broccoli-jshint');
 var replace = require('broccoli-replace');
-
 var calculateVersion = require('./lib/calculate-version');
 
 var env = process.env.EMBER_ENV || 'development';
