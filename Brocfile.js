@@ -10,6 +10,7 @@ var uglifyJavaScript = require('broccoli-uglify-js');
 var writeFile = require('broccoli-file-creator');
 var moveFile = require('broccoli-file-mover');
 var removeFile = require('broccoli-file-remover');
+
 var jshintTree = require('broccoli-jshint');
 var replace = require('broccoli-replace');
 var calculateVersion = require('./lib/calculate-version');
